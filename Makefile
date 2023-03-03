@@ -3,20 +3,10 @@ cur="$(shell pwd)"
 
 
 # for windows strawberry perl
-curS='$(shell pwd)'
-
 # for windows strawberry perl -- correr na pwsh (?)
-BINS=/strawberry/perl/site/bin
-install2:
-#	cpanm PerlIO::gzip  ## está a dar erro
-	perl -E "say qq(\@echo off \nperl -CDAS ), $(curS) =~ s!\\!/!gr , q(/linguakit.perl %%*) " > $(BINS)/linguakit.bat
-
-
 # for windows strawberry perl -- correr na bash (?)
-BINS2=/c/strawberry/perl/site/bin
-install3:
-#	cpanm PerlIO::gzip  ## está a dar erro
-	perl -E "say qq(\@echo off \nperl -CDAS ), $(curS) =~ s!\\\\!/!gr , q(/linguakit.perl %*) " > $(BINS2)/linguakit.bat
+install-win:
+	perl wininstall.pl
 
 install-linux:
 	perl -e 'print qq(#!/bin/bash\nperl $(cur)/linguakit.perl "\$$@"\n)' > $(BIN)/linguakit

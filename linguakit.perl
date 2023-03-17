@@ -5,12 +5,12 @@ use warnings;
 use File::Basename;
 use lib dirname(__FILE__);
 
-use utf8::all;
+# use utf8::all;
 
-#binmode STDIN, ':utf8';
-#binmode STDOUT, ':utf8';
-#binmode STDERR, ':utf8';
-#use utf8;
+binmode STDIN, ':utf8';
+binmode STDOUT, ':utf8';
+binmode STDERR, ':utf8';
+use utf8;
 
 push @ARGV, "-h" if $#ARGV < 0;
 
@@ -203,7 +203,7 @@ if($FILE){
 	}else{
 		open ($input, '<', $FILE) or die("'$FILE' not found.");
 	}
-	#	binmode $input, ':utf8';
+		binmode $input, ':utf8';
 }else{
 	$input = \*STDIN;
 }

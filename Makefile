@@ -1,10 +1,10 @@
 BIN=/usr/local/bin
 cur="$(shell pwd)"
 
-
 # for windows strawberry perl
 # for windows strawberry perl -- correr na pwsh (?)
 # for windows strawberry perl -- correr na bash (?)
+
 install-win:
 	perl wininstall.pl
 

@@ -9,8 +9,7 @@ open(F,">", "$base/linguakit.bat") or die("cant create $base/linguakit.bat , $!"
 print F 
 #        qq(\@echo off \nperl -CDAS $cur), 
 #        qq(\@echo off \nperl -Mutf8::all $cur), 
-        qq(\@echo off \nperl $cur), 
-        q(/linguakit.perl %*)  ;
+        qq(\@echo off \nperl $cur), q(/linguakit.perl %*)  ;
 close(F);
 
 __END__

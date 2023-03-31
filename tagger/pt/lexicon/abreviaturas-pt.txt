@@ -10,7 +10,6 @@ gb gigabytes
 A/A a_la_atención
 Abg. abogado
 aa.vv. autores_varios
-AA.VV. autores_varios
 a.C. antes_de_Cristo
 a/c a_cuenta
 acept. aceptación
@@ -56,7 +55,6 @@ cf. compárese
 cfr. compárese
 cgo. cargo
 ch/ cheque
-Cía. compañía
 cm. centímetro
 cms. centímetros
 Cnel. coronel
@@ -67,7 +65,6 @@ Comte. comandante
 coord. coordinador
 cp. compárese
 C.P. código_postal
-cta. cuenta
 ctv. centavo
 ctvo. centavo
 c/u cada uno
@@ -89,8 +86,6 @@ D.L. depósito_legal
 D.m. Dios_mediante
 doc. documento
 D.P. distrito_postal 
-dpto. departamento 
-depto. departamento
 Dr. doctor
 Dra. doctora
 Dr.ª doctora
@@ -111,8 +106,8 @@ e.p.d. en_paz_descanse
 etc. etcétera
 Exc.ª excelencia
 excl. exclusive
-Excmo. excelentísimo
-Excma. excelentísima
+Exmo. excelentíssimo
+Exma. excelentíssima
 f. folio 
 f.ª factura
 fasc. fascículo
@@ -139,8 +134,8 @@ ibídem en_el_mismo_lugar
 i.e. esto_es
 igl.ª iglesia
 Il. ilustre
-Ilmo. ilustrísimo
-Ilma. ilustrísima
+Ilmo. ilustríssimo
+Ilma. ilustríssima
 Iltre. ilustre
 imp. imprenta
 impr. imprenta
@@ -214,7 +209,6 @@ Soc. sociedad
 Sr. señor
 Sra. señora
 Sr.ª señora
-S.ª señora
 Srta. señorita
 Sto. santo
 Sta. santa
@@ -234,12 +228,9 @@ Vdo. viudo
 Vda. viuda
 vid. véase
 V.O. versión_original
-v.o. versión_original
 vol. volumen
 V.O.S. versión_original_subtitulada
 vs. versus
 vv.aa. varios_autores
-VV.AA. varios_autores	
 W.C. váter
 w.c váter
-Xto. Cristo

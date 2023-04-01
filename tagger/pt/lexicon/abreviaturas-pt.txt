@@ -118,6 +118,8 @@ FF.AA. Fuerzas_Armadas
 fig. figura
 f.º folio
 fol. folio
+fr. frei
+Fr. frei
 Gob. gobernador
 g.p. giro_postal
 g/p giro_postal
@@ -140,8 +142,9 @@ Iltre. ilustre
 imp. imprenta
 impr. imprenta
 incl. inclusive
-Ing. ingeniero
+Eng. engenheiro
 Inst. instituto
+esq. esquerdo
 izdo. izquierdo
 izq. izquierdo
 izqdo. izquierdo
